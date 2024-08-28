@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    dynamic data = ViewBag.Data;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome :- @ViewBag.Title</h1>
+    <h1>@ViewBag.Data</h1>
+    <h1>Id=@data.Id  , Name=@data.Name</h1>
+    <h2>Id=@ViewBag.Type.Id</h2>
+    <h2>Name=@ViewBag.Type.Name</h2>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

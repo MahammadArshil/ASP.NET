@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my Web</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div>
+        <h1>@DateTime.Now.Date</h1>
+
+        <h1>Sum=@(3+5)</h1>
+
+        <hr/>
+        <h1>Multiline:</h1>
+
+        @{
+            int a = 10;
+            int b = 20;
+            int c = a + b;
+        }
+        <h1>@c</h1>
+
+        <h2>My Email - mahammadarshil@gmail.com</h2>
+        <h2>Twitter - @@Mahammad Arshil</h2>
+    </div>
+</div>
